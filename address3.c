@@ -14,8 +14,8 @@
 
 /*
 	2차 업데이트
-		1.대소문자 구분안해---검색기능?!
-*/
+		1.대소문자 구분안해---검색기능?! >>>>11월 26일 
+ */
 
 typedef struct address{
 	char name[20];	
@@ -99,6 +99,11 @@ int main()
 			{
 				strcpy(contrast,add[i].name);
 				strcpy(search2,search);
+				
+				
+				/*
+					string 라이브러리 함수의 문자열 변환 함수를 찾아내어 절찬리 사용
+				*/
 
 				strupr(contrast);
 				strupr(search2);
